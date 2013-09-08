@@ -9,7 +9,7 @@ object Prims {
   type Graph = Map[Int, List[(Int, Int)]]
   
   def createGraph(path: String) : Graph = {
-    var graph = Map[Int, List[(Int, Int)]]()
+    val graph = Map[Int, List[(Int, Int)]]()
     Source.fromFile(path).getLines.toList.tail.foreach(
       {
         x =>
