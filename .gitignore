@@ -13,3 +13,4 @@ Thumbs.db
 .worksheet
 bin
 target
+.cache
